@@ -422,7 +422,10 @@ header {
 .testimonial-section .item p {
   color: #311643;
   font-weight: 500;
-  line-height: 145%;
+  line-height: 135%;
+}
+.cart-img {
+  filter: drop-shadow(-5px 1px 3px #2bff00);
 }
 
 .owl-carousel {
