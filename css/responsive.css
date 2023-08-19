@@ -1,0 +1,145 @@
+@media (max-width: 991px) {
+  .login-frm {
+    padding: 7rem 3rem;
+  }
+  .category {
+    -ms-flex-preferred-size: 31%;
+    flex-basis: 31%;
+  }
+  .affiliate-img {
+    width: 20rem;
+    right: 21px;
+  }
+  .remineded {
+    top: 1rem;
+    right: inherit;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 95%;
+  }
+
+  .bulletin-board {
+    padding: 7rem 5rem;
+  }
+  .bulletin-board-frm {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .hands img {
+    display: none;
+  }
+  .bullein-field {
+    width: 100%;
+  }
+  .bullein-field input,
+  .bullein-field select,
+  .bullein-field textarea {
+    width: 100%;
+  }
+  .bulletin-head {
+    text-align: center;
+  }
+  .postings-btn {
+    position: inherit;
+  }
+}
+
+@media (max-width: 768px) {
+  .dn-768 {
+    display: none;
+  }
+  .navbar-nav {
+    padding-bottom: 2rem;
+  }
+  .btn-trasnperent {
+    margin-left: 0.5rem;
+  }
+  .navbar-brand img {
+    width: 300px;
+  }
+  .text-center-md {
+    text-align: center;
+  }
+  .hero-content {
+    width: 80%;
+  }
+  .owl-carousel {
+    width: 100%;
+  }
+  .testimonial-section {
+    background: -o-linear-gradient(20deg, #b3fd4c 103%, #b3fd4c00 100%);
+    background: linear-gradient(70deg, #b3fd4c 103%, #b3fd4c00 100%);
+  }
+  .category {
+    -ms-flex-preferred-size: 48%;
+    flex-basis: 48%;
+  }
+  .affiliate-header h2 {
+    text-align: center;
+  }
+  .affiliate-main h3 {
+    margin-top: 2rem;
+  }
+  .thank-you-inner h2 {
+    font-size: 3.4rem;
+  }
+  .remineded {
+    padding: 1rem;
+  }
+  .remineded h3 {
+    font-size: 2.2rem;
+  }
+  .popup-inner {
+    width: 85%;
+  }
+  .posts-left {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .hero-bg-image img {
+    height: 62rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .bulletin-board {
+    background-size: 100% 106%;
+  }
+  .bulletin-board {
+    padding: 7rem 2.5rem;
+  }
+  .bulleting-board-mechanic-page {
+    width: 90%;
+  }
+  .affiliate-main,
+  .affiliate-header {
+    padding: 2rem 3rem;
+  }
+}
+@media (max-width: 400px) {
+  html {
+    font-size: 59.5%;
+  }
+  .navbar-brand img {
+    width: 250px;
+  }
+  .hero-content {
+    width: 90%;
+  }
+  .category {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar-brand img {
+    width: 200px;
+  }
+}
